@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
-pth=`pwd`
+# pth=`pwd`
 
 if [[ $# == 1 ]]; then
-    $pth/build/taxonoviz -i $pth/$1 $pth/$1.dot
-    fdp -Tpng $pth/$1.dot -o $pth/$1.png
+    filen=`basename $1`
+    build/taxonoviz -i $1 $1.dot
+    fdp -Tpng $1.dot -o $1.png
 elif [[ $# == 2 ]]; then
-    $pth/build/taxonoviz -i $pth/$1 $pth/$2/$1.dot
-    fdp -Tpng $pth/$2/$1.dot -o $pth/$2/$1.png
+    filen=`basename $1`
+    build/taxonoviz -i $1 -o $2/$filen.dot
+    fdp -Tpng $2/$filen.dot -o $2/$filen.png
 else
     echo "Usage: ./taxo <taxonomy.ow> [path/to/output/directory]"
 fi
