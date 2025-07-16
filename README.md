@@ -9,5 +9,5 @@ To compile
 Then run:
 ```bash
 build/taxonoviz -i taxonomy.owl -o taxonomy.dot
-dot -Tpng taxonomy.dot -o taxonomy.png
+fdp -Tpng taxonomy.dot -o taxonomy.png #dot is unreadable, circo can be a good alternative
 ```
