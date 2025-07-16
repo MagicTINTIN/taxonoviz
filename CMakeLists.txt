@@ -51,13 +51,13 @@ macro(LEX_FILE _filename)
 endmacro()
 
 # Generate parser and lexer sources
-YACC_FILE(src/parser/syntaxic.y)
-LEX_FILE(src/parser/lexical.l)
+YACC_FILE(src/syntaxic.y)
+LEX_FILE(src/lexical.l)
 
 # Include directories for generated headers and parser utilities
 include_directories(
   ${GENERATED_DIR}
-  ${CMAKE_CURRENT_SOURCE_DIR}/src/
+  ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
 # Source files
