@@ -51,61 +51,11 @@
 	// extern TBox* tbox;
 	u_int32_t value = 2;
 
-	// extern KB* kb;
-
-	// // for parsing conjunction
-	// // number of conjuncts in an ObjectIntersectionOf expression
-	// int conjunct_count;
-	// // the conjuncts in an ObjectIntersectionOf expression
-	// ClassExpression* conjuncts[MAX_CONJUNCT_COUNT];
-
-	// size_t conjunct_count;
 	std::vector<std::string> conjuncts = {};
-
-	// // for parsing EquivalentClasses axioms containing more than 2 class expressions
-	// // number of class expressions in an EquivalentClasses axiom 
-	// int equivalent_classes_count;
-	// // the number of class expressions in an EquivalentClasses axiom
-	// ClassExpression* equivalent_classes[MAX_EQ_CLASS_EXP_COUNT];
-	// size_t equivalent_classes_count;
 	std::vector<std::string> equivalent_classes = {};
-
-	// // for parsing EquivalentObjectProperties axioms containing more than 2 object properties
-	// // the number of object property expressions in an EquivalentObjectProperties axiom
-	// int equivalent_objectproperties_count;
-	// // the object property expressions in an EquivalentObjectProperties axiom
-	// ObjectPropertyExpression* equivalent_objectproperties[MAX_EQ_ROLE_EXP_COUNT];
 	std::vector<std::string> equivalent_objectproperties = {};
-	
-	// // for parsing ObjectPropertyChain expressions
-	// // the number of object property expressions in an object property chain expression
-	// int objectproperty_chain_components_count;
-	// // the object property expressions in an object property chain expression
-	// ObjectPropertyExpression* objectproperty_chain_components[MAX_ROLE_COMPOSITION_SIZE];
 	std::vector<std::string> objectproperty_chain_components = {};
-	
-	// // for parsing HasKey expressions
-	// // the number of object properties in an HasKey expression
-	// int haskey_objectproperty_expression_count;
-	// // the object properties in an HasKey expression
-	// ObjectPropertyExpression* haskey_objectproperties[MAX_ROLE_COMPOSITION_SIZE];
-	
-	// for parsing DisjointClasses axioms
-	// number of classes in a DisjointClasses axiom 
-	// size_t disjoint_classes_count;
 	std::vector<std::string> disjoint_classes = {};
-	// the class expressions in a DisjointClasses axiom
-	// ClassExpression* disjoint_classes[MAX_DISJ_CLASS_EXP_COUNT];
-
-	// // for parsing SameIndividual axioms
-	// int same_individuals_count;
-	// // the individuals in a SameIndividual axiom
-	// Individual* same_individuals[MAX_SAME_INDIVIDUAL_COUNT];
-
-	// // for parsing DifferentIndividuals axioms
-	// int different_individuals_count;
-	// // the individuals in a DifferentIndividuals axiom
-	// Individual* different_individuals[MAX_DIFFERENT_INDIVIDUALS_COUNT];
 
     extern Taxonomy* tx;
 
