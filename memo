@@ -1,0 +1,6 @@
+python sub.py ~/Documents/code/cpp/reasoner/test/tmp/a456e456-27a5-4342-8c65-4a29f45eed5e_anatomy_xp.obo_functional.owl.ofn /tmp/fod "<http://purl.obolibrary.org/obo/FBbt_00007395>"
+python sub.py ~/Documents/code/cpp/reasoner/test/tmp/a456e456-27a5-4342-8c65-4a29f45eed5e_anatomy_xp.obo_functional.owl.ofn /tmp/fod "<http://purl.obolibrary.org/obo/FBbt_00007395>" "<http://purl.obolibrary.org/obo/FBbt_00007394>"
+
+
+python sub.py ~/Documents/code/cpp/reasoner/test/tmp/a456e456-27a5-4342-8c65-4a29f45eed5e_anatomy_xp.obo_functional.owl.ofn /tmp/fod "<http://purl.obolibrary.org/obo/FBbt_00007395>" "<http://purl.obolibrary.org/obo/FBbt_00007394>" "<http://purl.obolibrary.org/obo/FBbt_00005126>"
+python sub.py ~/Documents/code/cpp/reasoner/test/tmp/a456e456-27a5-4342-8c65-4a29f45eed5e_anatomy_xp.obo_functional.owl.ofn /tmp/fod "<http://purl.obolibrary.org/obo/FBbt_00007395>" "<http://purl.obolibrary.org/obo/FBbt_00007394>" "<http://purl.obolibrary.org/obo/FBbt_00005126>"
