@@ -1,0 +1,34 @@
+Prefix(:=<owlapi:ontology:ont0#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<owlapi:ontology:ont0>
+Declaration(Class(<7395>))
+SubClassOf(<7395> <5126>)
+SubClassOf(<7395> ObjectSomeValuesFrom(<part_of> <7401>))
+SubClassOf(<7395> ObjectSomeValuesFrom(<develops_from> <67347>))
+SubClassOf(<7395> ObjectSomeValuesFrom(<innervates> <7401>))
+SubClassOf(<7416> <7395>)
+Declaration(Class(<5126>))
+SubClassOf(<5126> <5125>)
+EquivalentClasses(<7226> ObjectIntersectionOf(<5126> ObjectSomeValuesFrom(<part_of> <7127>) ObjectSomeValuesFrom(<innervates> <7127>)))
+EquivalentClasses(<7390> ObjectIntersectionOf(<5126> ObjectSomeValuesFrom(<part_of> <7401>) ObjectSomeValuesFrom(<innervates> <7401>)))
+EquivalentClasses(<7393> ObjectIntersectionOf(<5126> ObjectSomeValuesFrom(<part_of> <7401>) ObjectSomeValuesFrom(<develops_from> <67348>) ObjectSomeValuesFrom(<innervates> <7401>)))
+EquivalentClasses(<7394> ObjectIntersectionOf(<5126> ObjectSomeValuesFrom(<part_of> <7401>) ObjectSomeValuesFrom(<develops_from> <67347>) ObjectSomeValuesFrom(<innervates> <7401>)))
+SubClassOf(<7395> <5126>)
+SubClassOf(<7396> <5126>)
+EquivalentClasses(<7402> ObjectIntersectionOf(<5126> ObjectSomeValuesFrom(<part_of> <7401>) ObjectSomeValuesFrom(<innervates> <7401>) ObjectSomeValuesFrom(<releases_neurotransmitter> <16865>)))
+EquivalentClasses(<7403> ObjectIntersectionOf(<5126> ObjectSomeValuesFrom(<part_of> <7401>) ObjectSomeValuesFrom(<innervates> <7401>) ObjectSomeValuesFrom(<releases_neurotransmitter> <15355>)))
+SubClassOf(<7404> <5126>)
+SubClassOf(<7417> <5126>)
+#TransitiveObjectProperty(<develops_from>)
+Declaration(Class(<7390>))
+EquivalentClasses(<7390> ObjectIntersectionOf(<5126> ObjectSomeValuesFrom(<part_of> <7401>) ObjectSomeValuesFrom(<innervates> <7401>)))
+
+
+
+)

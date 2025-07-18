@@ -5,6 +5,7 @@ if [[ $# == 1 ]]; then
     filen=`basename $1`
     build/taxonoviz -i $1 -o $1.dot
     fdp -Tpng $1.dot -o $1.png
+    eog $1.png 2> /dev/null &
 elif [[ $# == 2 ]]; then
     filen=`basename $1`
     build/taxonoviz -i $1 -o $2/$filen.dot
