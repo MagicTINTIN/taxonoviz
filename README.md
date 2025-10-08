@@ -1,4 +1,6 @@
 # Taxonoviz
+<img src="taxonoviz.png" width="120px" height="120px">
+
 Converts an owl (functional) taxonomy to a .dot (Graphviz)
 
 > Functional owl parser Lex/Yacc structure coming from ELpHant reasoner.
